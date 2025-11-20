@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-sm p-4 mb-5">
+        <h1 class="text-center mb-4">Add a New Movie to This List</h1>
+
+        <%= simple_form_for [@list, @bookmark], html: { class: "needs-validation" } do |f| %>
+          <div class="mb-3">
+            <%= f.association :movie, label: "Select Movie", input_html: { class: "form-select" } %>
+          </div>
+
+          <div class="mb-3">
+            <%= f.input :comment, label: "Your Comment", input_html: { class: "form-control", placeholder: "Optional comment..." } %>
+          </div>
+
+          <div class="d-grid">
+            <%= f.button :submit, class: "btn btn-primary btn-lg" do %>
+              <i class="fas fa-plus me-2"></i> Add Movie
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

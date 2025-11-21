@@ -4,8 +4,7 @@
 
     <% if @list.image.present? %>
       <!-- Header MIT Bild -->
-      <img src="<%= @list.image %>" class="card-img-top" alt="<%= @list.name %>"
-           style="height: 300px; object-fit: cover;">
+      <%= cl_image_tag @list.image.key, class: "card-img-top", style: "height: 300px; object-fit: cover;", crop: :fill %>
 
       <h1 class="position-absolute top-50 start-50 translate-middle
                  text-white text-center bg-dark bg-opacity-50 p-3 rounded

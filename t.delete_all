@@ -1,0 +1,42 @@
+=> 
+[[32m#<List:0x00007dc104f5f0a8[0m
+  id: [34m[1m1[0m,
+  name: [31m[1m"[0m[31mSuperheroes[0m[31m[1m"[0m,
+  created_at:
+   Thu, 20 Nov 2025 13:28:46.073766000 UTC +00:00,
+  updated_at:
+   Thu, 20 Nov 2025 13:28:46.073766000 UTC +00:00,
+  image: [36m[1mnil[0m[32m>[0m,
+ [32m#<List:0x00007dc105252080[0m
+  id: [34m[1m2[0m,
+  name: [31m[1m"[0m[31mNovember Rain[0m[31m[1m"[0m,
+  created_at:
+   Thu, 20 Nov 2025 13:30:41.522655000 UTC +00:00,
+  updated_at:
+   Thu, 20 Nov 2025 13:30:41.522655000 UTC +00:00,
+  image: [36m[1mnil[0m[32m>[0m,
+ [32m#<List:0x00007dc105251f40[0m
+  id: [34m[1m3[0m,
+  name: [31m[1m"[0m[31mChristmas[0m[31m[1m"[0m,
+  created_at:
+   Thu, 20 Nov 2025 13:31:02.008505000 UTC +00:00,
+  updated_at:
+   Thu, 20 Nov 2025 13:31:02.008505000 UTC +00:00,
+  image: [36m[1mnil[0m[32m>[0m,
+ [32m#<List:0x00007dc105251cc0[0m
+  id: [34m[1m4[0m,
+  name: [31m[1m"[0m[31mMarvel[0m[31m[1m"[0m,
+  created_at:
+   Thu, 20 Nov 2025 15:30:18.287813000 UTC +00:00,
+  updated_at:
+   Thu, 20 Nov 2025 15:30:18.287813000 UTC +00:00,
+  image:
+   [31m[1m"[0m[31mhttps://www.joyn.de/bts/_next/image?url=https%3A%2F%2Fimg.joyn.de%2Flido%2Fimages%2F2025%2F04%2F07%2Faed04a41-ed42-47f3-9973-dda35199a505.jpeg%2Fprofile%3Aoriginal.webp%2F%257B%2522width%2522%253A2000%252C%2522rect%2522%253A%257B%2522x%2522%253A0%252C%2522y%2522%253A0%252C%2522width%2522%253A2000%252C%2522height%2522%253A1125%257D%257D&w=1080&q=75[0m[31m[1m"[0m[32m>[0m,
+ [32m#<List:0x00007dc105251b80[0m
+  id: [34m[1m5[0m,
+  name: [31m[1m"[0m[31mFantasy[0m[31m[1m"[0m,
+  created_at:
+   Fri, 21 Nov 2025 11:43:31.393576000 UTC +00:00,
+  updated_at:
+   Fri, 21 Nov 2025 11:43:33.829831000 UTC +00:00,
+  image: [36m[1mnil[0m[32m>[0m]

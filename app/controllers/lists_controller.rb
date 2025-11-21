@@ -6,13 +6,8 @@ class ListsController < ApplicationController
   end
 
   def show
-    @movies = []
-    @bookmark_ids = []
-
-    @list.bookmarks.each do |bookmark|
-      @bookmark_ids << bookmark.id
-      @movies << Movie.find(bookmark.movie_id)
-    end
+    @bookmark = Bookmark.new
+    @review = Review.new
   end
 
   def new

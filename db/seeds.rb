@@ -20,7 +20,7 @@ Movie.destroy_all
 puts "Seeding..."
 
 movies["results"].each do |movie|
-  new_movie = Movie.create!(title: movie["original_title"], overview: movie["overview"], poster_url: "#{url}#{movie["poster_path"]}", rating: movie["vote_average"])
+  new_movie = Movie.create!(title: movie["original_title"], overview: movie["overview"], poster_url: "https://image.tmdb.org/t/p/w500#{movie["poster_path"]}", rating: movie["vote_average"])
   puts "Created 1 new movie with the name #{movie["original_title"]}"
 end
 
